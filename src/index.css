@@ -90,7 +90,7 @@ Buttons
   display: inline-block;
   transition: var(--mainTransition);
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   background: transparent;
   border-radius: var(--bigBorderRadius);
   display: inline-block;
@@ -145,6 +145,13 @@ Buttons
 Navbar
 ======
 */
+.subnav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem auto;
+}
+
 .navbar {
   background: var(--mainWhite);
   height: 5rem;

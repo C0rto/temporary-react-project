@@ -10,7 +10,7 @@ const AppProvider = ({ children }) => {
   const randomCharacter = alphabet[Math.floor(Math.random() * alphabet.length)];
   const [loading, setLoading] = useState(true);
   // This state grab the words on search form to fetch data in a specific way
-  const [searchTerm, setSearchTerm] = useState('a');
+  const [searchTerm, setSearchTerm] = useState(randomCharacter);
   // This state grab the cocktails from the API
   const [cocktails, setCocktails] = useState([]);
 

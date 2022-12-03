@@ -12,13 +12,9 @@ const Navbar = () => {
         <div className="nav-center">
           <SearchForm />
           <ul className="nav-links">
-            <li onClick={dice} className="btn ">
-              Stupiscimi
-            </li>
-            {/* 
             <li>
-              <Link to={'/about'}>About</Link>
-            </li> */}
+              <Link to={'/about'}>info</Link>
+            </li>
           </ul>
         </div>
       </nav>
